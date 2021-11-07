@@ -1,0 +1,9 @@
+# put here your custom config value
+menu "Example Configuration"
+
+config EXAMPLE_CONFIG_VALUE
+    string "Value name"
+    default "default value"
+    help "Help text for what value is/does"
+
+endmenu
