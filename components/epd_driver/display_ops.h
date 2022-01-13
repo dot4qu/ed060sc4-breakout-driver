@@ -25,7 +25,14 @@
 /* Config Reggister Control */
 #define CFG_DATA GPIO_NUM_33
 #define CFG_CLK GPIO_NUM_32
+
+/*
+ * NOTE:
+ * This GPIO altered from IO0 to IO14 due to interference on breakout board of button debounce
+ * circuit on IO0 for programming
+ */
 #define CFG_STR GPIO_NUM_14
+
 #endif
 #if defined(CONFIG_EPD_BOARD_REVISION_V6)
 #define CFG_SCL GPIO_NUM_33
